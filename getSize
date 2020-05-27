@@ -1,0 +1,2 @@
+avr-gcc -g -mmcu=atmega328p -o main.elf main.o
+avr-size -C --mcu=atmega328p main.elf 
